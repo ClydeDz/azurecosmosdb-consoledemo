@@ -36,12 +36,14 @@
 
 namespace TableStorage
 {
-    using Microsoft.Azure;
-    using Microsoft.Azure.CosmosDB.Table;
-    using Microsoft.Azure.Storage;
     using System;
     using System.Collections.Generic;
     using System.Threading.Tasks;
+
+    using Microsoft.Azure;
+    using Microsoft.Azure.CosmosDB.Table;
+    using Microsoft.Azure.Storage;
+
     using TableStorage.Model;
 
     public class Program
@@ -68,7 +70,7 @@ namespace TableStorage
 
             #region OPERATIONS
 
-            int step = 5;
+            int step = 0;
             switch (step)
             {
                 case 0:
